@@ -59,10 +59,10 @@ npm start
 |--------|------|-------------|
 | GET | `/health` | Health del API |
 | GET | `/api/postgres/health` | Health de PostgreSQL |
-| GET | `/api/postgres/users` | Lista usuarios (Postgres) |
+| GET | `/api/postgres/users?page=1&limit=10` | Lista usuarios paginados (Postgres) |
 | POST | `/api/postgres/users` | Crea usuario (Postgres) |
 | GET | `/api/mongo/health` | Health de MongoDB |
-| GET | `/api/mongo/users` | Lista usuarios (Mongo) |
+| GET | `/api/mongo/users?page=1&limit=10` | Lista usuarios paginados (Mongo) |
 | POST | `/api/mongo/users` | Crea usuario (Mongo) |
 
 ### Ejemplos
